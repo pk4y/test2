@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Lubelskie kino plenerowe</title>
+</head>
+<body>
+    <div id="modal" class="hide">
+        <div id="modal-window">
+            <span class="material-symbols-outlined">cancel</span>
+            <p id="title" class="title"></p>
+            <p id="description" class="description"></p>
+            <p id="descriptionAdd" class="descriptionAdd"></p>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Lubelskie kino</a>
+            </div>
+            <div class="menu">
+                <span class="material-symbols-outlined">menu</span>
+                <ul class="hide">
+                    <span class="material-symbols-outlined">cancel</span>
+                    <li><a href="#about">O nas</a></li>
+                    <li><a href="#offer">Oferta</a></li>
+                    <li><a href="#location">Lokalizacja</a></li>
+                    <li><a href="#sales">Portfolio</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Lubelskie kino plenerowe</h1>
+        <div class="container-button-header">
+            <div class="button-header">
+                <a href="#about"><span class="material-symbols-outlined">info</span></a>
+            </div>
+            <div class="button-header">
+                <a href="#offer"><span class="material-symbols-outlined">more_horiz</span></a>
+            </div>
+            <div class="button-header">
+                <a href="#location"><span class="material-symbols-outlined">location_on</span></a>
+            </div>
+            <div class="button-header">
+                <a href="#sales"><span class="material-symbols-outlined">image</span></a>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>O nas</h2>
+            <div class="container">
+                <div class="row">
+                    <p class="col col-l-50 col-xl-25">Jesteśmy butikową agencją eventową zajmującą się profesjonalnie
+                        plenerowymi projekcjami filmowymi.
+                        Zapewniamy kompleksową organizację wieczoru filmowego
+                        - gwarantujemy niezbędny sprzęt audiowizualny tj. ekran
+                        pneumatyczny, wysokiej klasy projektor oraz nagłośnienie, personel
+                        techniczny i wygodne leżaki dla naszych widzów. Dbamy także
+                        o wszystkie niezbędne pozwolenia, licencje oraz rozliczamy ZAIKS</p>
+                    <p class="col col-l-50 col-xl-25">Doświadczenie:
+                        Od ponad 15 lat zajmujemy się eventami i kinem
+                        plenerowym - to tysiące godzin spędzonych przy przy
+                        projektorze, dziesiątki tysięcy przejechanych kilometrów -
+                        jesteśmy profesjonalistami w każdym calu!
+                        </p>
+                    <p class="col col-l-50 col-xl-25">Niezawodny: sprzęt
+                        Pracujemy na najlepszych ekranach marki AirScreen
+                        oraz projektorach o mocy 10000 ANSI lumenów
+                        zapewniających doskonałą jakość obrazu.
+                        </p>
+                    <p class="col col-l-50 col-xl-25">Pasja:
+                        Na kinie znamy się jak nikt inny, pomożemy Ci w doborze filmu
+                        i sprawimy, że ten wieczór będzie po prostu wyjątkowy!</p>
+                </div>
+            </div>
+        </section>
+        <section id="offer">
+            <h2>Oferta</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-m-50 col-m-33">
+                        <div class="offer-box">
+                            <h3 id="descriptionTitle1">Mini</h3>
+                            <div class="offer-image">
+                                <img src="assets/ZdjeciaKino/2.webp" alt="oferta przelotu" width="100%">
+                            </div>
+                            <p class="offer-description" id="description1">5000 zł</p>
+                            <p class="offer-description hide"  id="descriptionAdd1">
+                                Projekcja jednorazowa 
+                                <br>
+                                Ekran, projektor, nagłośnienie, leżaki
+                                <br>
+                                Całościowy serwis
+                                <br>
+                                MOŻLIWOŚĆ NEGOCJACJI CENY
+                                <br>
+                                CENY BRUTTO 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-m-50 col-m-33">
+                        <div class="offer-box">
+                            <h3 id="descriptionTitle2">Optimum</h3>
+                            <div class="offer-image">
+                                <img src="assets/ZdjeciaKino/1.webp" alt="oferta przelotu" width="100%">
+                            </div>
+                            <p class="offer-description" id="description2">4700 zł/szt</p>
+                            <p class="offer-description hide"  id="descriptionAdd2">
+                                Od 2 do 6 projekcji
+                                <br>
+                                Ekran, projektor, nagłośnienie, leżaki
+                                <br>
+                                Całościowy serwis
+                                <br>
+                                MOŻLIWOŚĆ NEGOCJACJI CENY
+                                <br>
+                                CENY BRUTTO 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-m-50 col-m-33">
+                        <div class="offer-box">
+                            <h3 id="descriptionTitle3">Maxi</h3>
+                            <div class="offer-image">
+                                <img src="assets/ZdjeciaKino/4.webp" alt="oferta przelotu" width="100%">
+                            </div>
+                            <p class="offer-description" id="description3">4500 zł/szt</p>
+                            <p class="offer-description hide"  id="descriptionAdd3">
+                                Powyżej 7 projekcji 
+                                <br>
+                                Ekran, projektor, nagłośnienie, leżaki
+                                <br>
+                                Całościowy serwis
+                                <br>
+                                MOŻLIWOŚĆ NEGOCJACJI CENY
+                                <br>
+                                CENY BRUTTO 
+                            </p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="location">
+            <h2>Lokalizacja</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.403356284265!2d22.781413557574332!3d51.75481804790313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472223d9e9c76cfb%3A0x89915310fce1582b!2sSuchowolska%205%2C%2021-310%20Wohy%C5%84!5e1!3m2!1spl!2spl!4v1744653315464!5m2!1spl!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sales">
+            <h2>Portfolio</h2>
+            <div class="container">
+                    <div class="row">
+                            <div class="col col-l-50 col-xl-25"> <img class="zdj" src="assets/ZdjeciaKino/1.wwebp" alt=""></div>
+                            <div class="col col-l-50 col-xl-25"> <img class="zdj" src="assets/ZdjeciaKino/2.wwebp" alt=""></div>
+                            <div class="col col-l-50 col-xl-25"> <img class="zdj" src="assets/ZdjeciaKino/3.wwebp" alt=""></div>
+                            <div class="col col-l-50 col-xl-25"> <img class="zdj" src="assets/ZdjeciaKino/4.wwebp" alt=""></div>
+                            <div class="col col-l-50 col-xl-25"> <img class="zdj" src="assets/ZdjeciaKino/5.wwebp" alt=""></div>
+                            <div class="col col-l-50 col-xl-25"> <img class="zdj" src="assets/ZdjeciaKino/6.wwebp" alt=""></div>
+                        </div>
+                    </div>
+                    </div>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                       <form>
+                            <input placeholder="Podaj Twojego maila"><br> 
+                            <input placeholder="Podaj temat wiadomości"><br>
+                            <textarea placeholder="Wpisz wiadomość"></textarea>
+                            <button type="submit">Wyślij</button> 
+                       </form> 
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p class="col col-m-33">Tel: (+48) 733 255 340</p>
+                <p class="col col-m-33">Email: lubelskiekino@gmail.com</p>
+                <p class="col col-m-33">Dostępność w całej polsce</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>

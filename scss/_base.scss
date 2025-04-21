@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    font-family: "Kanit", sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+     margin: 0;
+     height: 400vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.hide {
+    display: none;
+}
